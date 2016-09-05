@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="description" content="">
+<!-- Mobile viewport optimized: h5bp.com/viewport -->
+<!-- ######## this hasn't been tested on an iphone. However! it has been tested in Chrome using the Ripple Android simulator. ######## -->
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="icon" type="images/ico" href="images/favicon.ico">
+<link rel="stylesheet" href="styles/normalize.css" />
+<link rel="stylesheet" href="styles/adjusting-viewport.css" />
+<!--[if lt IE 8]><link rel="stylesheet" href="styles/adjusting-viewport-ie7.css" /><![endif]-->
+<title>responsive form with js</title>
+</head>
+
+<body>
+
+<form id="myform" name="myform" class="group" action="thanks.htm" method="POST" enctype="text/plain">
+<!-- :before pseudo class will make the legends work in all browsers. There is also a hack for IE 7 b/c it doesn't know the :before pseudo class. -->
+	<fieldset title="Login Info">
+		<legend>Login Info</legend>
+		<ol>
+			<li>
+				<label for="fname">First Name *</label>
+				<input type="text" value="first name" name="fname" id="fname" required />
+			</li>
+			<li>
+				<label for="lname">Last Name *</label>
+				<input type="text" value="last name" name="lname" id="lname" required />
+			</li>
+			<li>
+				<label for="myemail">Email *</label>
+				<input type="email" name="myemail" id="myemail" required autocomplete="off" />
+			</li>
+			<li>
+				<label for="mypassword">Password *</label>
+				<input type="password" name="mypassword" id="mypassword" required />
+			</li>
+		</ol>
+	</fieldset>
+	<fieldset title="Other">
+		<legend>Other</legend>
+		<ol>
+			<li>
+				<label for="mywebsite">Website</label>
+				<input type="url" name="myemail" id="mywebsite" />
+			</li>
+			<li>
+				<label for="mywebsite">Telephone</label>
+				<input type="tel" name="mytelephone" id="mytelephone" />
+			</li>
+			<li class="singleline">
+				<input type="checkbox" id="subscribeitem" name="subscribe" CHECKED value="yes" />
+				<label for="subscribeitem">Subscribe to our mailing list?</label>
+			</li>
+			<li>
+				<label for="reference">How did you hear about us?</label>
+				<select name="reference" id="reference">
+					<option>Choose...</option>
+					<option value="friend">A friend</option>
+					<option value="facebook">Facebook</option>
+					<option value="twitter">Twitter</option>
+				</select>
+			</li>
+		</ol>
+	</fieldset>
+	<fieldset title="Comments">
+	<legend>Comments</legend>
+		<ol>
+			<li>
+				<div class="grouphead">Request Type</div>
+				<ol>
+					<li>
+						<input type="radio" name="requesttype" value="question" id="questionitem" />
+						<label for="questionitem">Question</label>
+					</li>
+					<li>
+						<input type="radio" name="requesttype" value="comment" id="commentitem" />
+						<label for="commentitem">Comment</label>
+					</li>
+				</ol>
+			</li>
+			<li>
+				<label for="mycomments">Comment</label>
+				<textarea name="mycomments" id="mycomments"></textarea>
+			</li>
+		</ol>
+	<button type="submit" value="submit" onClick="return validateNames()">send</button>
+</fieldset>
+</form>
+
+<script src="scripts/form.js"></script>
+</body>
+</html>

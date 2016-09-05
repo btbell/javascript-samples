@@ -1,0 +1,194 @@
+/* CSS Document */
+
+input[type=text],
+input[type=password],
+input[type=submit],
+input[type=email],
+input[type=url],
+input[type=number],
+input[type=datetime],
+input[type=tel],
+textarea,button, select {
+	border: none;
+	background: white;
+	border-radius: 0;
+	padding: 5px;
+	margin: 0;
+	margin-bottom: 10px;
+    
+    -webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+	
+.group:before, .group:after { 
+	content: "\0020"; 
+	display: block; 
+	height: 0; 
+	overflow: hidden; }  
+.group:after { 
+	clear: both; }  
+.group { 
+	zoom: 1; }
+
+body	{
+	background: #343742 url(../images/verticallines.png);
+	margin-top: 50px;
+}
+
+#myform, #thanksPage {
+	font: normal .8em/1em Arial, Helvetica, Geneva, sans-serif;
+    background: #4f6161;
+	background: -webkit-linear-gradient(rgba(97, 126, 118, 0.6),rgba(53, 56, 67, .5));
+	background: -moz-linear-gradient(rgba(97, 126, 118, 0.6),rgba(53, 56, 67, .5));
+	background: -ms-linear-gradient(rgba(97, 126, 118, 0.6),rgba(53, 56, 67, .5));
+	background: -o-linear-gradient(rgba(97, 126, 118, 0.6),rgba(53, 56, 67, .5));
+	width: 80%;
+	margin: 0 auto;
+	max-width: 500px;
+
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#thanksPage h2 {
+	padding: 1em;
+	text-align: center;
+	color: #ffd98d;
+}
+
+#myform fieldset {
+	border: none;
+	margin: 0;
+	padding: 0;
+	margin: 10px;
+}
+
+#myform fieldset:before {
+	content:attr(title);
+	display: block;
+	padding: 0;
+	padding-top: 30px;
+	font-weight: bold;
+	font-size: 1.25em;
+	color: #ffd98d;
+	margin: 0 auto;
+}
+  
+#myform legend {
+	display: none;
+}
+
+#myform ol {
+	margin: 0px;
+	padding: 0px;
+}
+ 
+#myform ol li {
+	list-style: none;
+	padding: 8px;
+	border-top: 1px solid #697276;
+	border-bottom: 1px solid #2e3539;
+}
+
+#myform ol li:first-child {
+	border-top:none;
+}
+
+#myform ol li:last-child {
+	border-bottom:none;
+}
+
+#myform ol li ol li {
+	padding-bottom: 0;
+	display: inline;
+	padding: 0px;
+	border-top: none;
+	border-bottom: none;
+}
+
+#myform ol li input[type="checkbox"] {
+	width: auto;
+	display: inline;
+}
+
+#myform ol li ol li input {
+	display: inline;
+	width: auto;
+}
+
+#myform ol li label, .grouphead {
+	font-weight: bold;
+	display: block;
+	margin-bottom: 5px;
+	color: #8a9081;
+	color: rgba(240, 255, 250, 0.54);
+}
+
+#myform ol li.singleline label {
+	font-weight: normal;
+	display: inline;
+}
+
+#myform ol li ol li label {
+	font-weight: normal;
+	display: inline;
+	cursor: pointer;
+}
+
+#myform ol li input, #myform textarea {
+	display: block;
+	width: 96%;
+	border: 1px solid #343742;
+	padding: 5px;
+	background: #86897c;
+	margin: 0 auto;	
+	outline: none;
+	border-radius: 5px;
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+#myform input[required] {
+	border-color: #feb41c;
+}
+
+#myform ol li select {
+	width: 200px;
+	width: 50%;
+	min-width: 100px;	
+	background: #b1Ae87;
+	color:#343742;
+	font-weight: bold;
+	border: 0;
+    border-radius: 8px;
+
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+}
+
+#myform textarea {
+	height: 75px;
+}
+
+#myform button {
+	width: 100px;
+	width: 30%;
+	min-width: 100px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border: 0;
+	background: #b1ae87;
+	color:#343742;
+	cursor: pointer;
+	font-weight: bold;
+    border-radius: 8px;
+
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+}
