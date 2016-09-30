@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>JSON carousel</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<!-- Viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link href="styles/rotator.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Yatra+One" rel="stylesheet">
+</head>
+
+<body>
+
+<div id="citybox">
+  <div id="carousel"></div>
+    <p class="direct_btn">
+	  <a href="#" id="prev_btn">&laquo;</a>
+	  <a href="#" id="next_btn">&raquo;</a>
+	</p>
+  </div>
+
+<script id="citiestpl" type="text/template">
+	{{#cities}}
+	  <div class="city">
+		<img src="images/{{trimname}}_tn.jpg" alt="photo of {{city_country}}" />
+		<h1>{{city_country}}</h1>
+		<p>{{citybio}}</p>
+	  </div>
+	{{/cities}}
+</script>	
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle/3.0.3/jquery.cycle.all.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.min.js"></script>
+
+<script type="text/javascript">
+	
+  $(function() {
+
+  	$.getJSON('city.json', function(data) {
+      var template = $('#citiestpl').html();
+      var html = Mustache.to_html(template, data);
+      $('#carousel').html(html);
+
+  $('#carousel').cycle({
+  	fx: 'fade',
+  	pause: 1,
+  	next: '#next_btn',
+  	prev: '#prev_btn',
+  	speed: 500,
+  	timeout: 10000
+  });
+
+  }); // end getJSON
+}); // end function
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+/* CSS document */
+
+body {
+	background: #424242;
+}
+
+a {
+	color: #000;
+	font-size: 130%;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ccc;
+}
+
+#citybox {
+	width: 300px;
+	margin: 18px auto;
+	padding: 7px 12px 7px 10px;
+	background: #d3ceaa;
+	font: 100% ;
+	border: 3px solid #8e001c;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.city h1 {
+  font: 160% "Yatra One", cursive;
+  margin: 0;
+  padding: 0;
+}
+
+.city p {
+	font: 90% "Segoe UI", Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	line-height: 1.2em;
+}
+
+.city img {
+	border: 2px solid #fff;
+	border-radius: 5px;
+}
+
+#prev_btn, #citybox #next_btn {
+	background: #e7e8d1;
+	padding: 4px 8px;
+	border-radius: 5px;
+	margin: 4px 4px 4px 2px;
+}
