@@ -1,0 +1,23 @@
+{ "cities" : [
+   { "city_country" : "Sydney, Australia",
+     "trimname"    : "sydney",
+     "citybio"      : "Aenean at vehicula risus, ut convallis urna. Etiam egestas libero eget enim mattis vehicula. Maecenas ornare tincidunt nisl, non tempus ante elementum in. Maecenas euismod."
+   },
+   { "city_country" : "Toronto, Canada",
+     "trimname"    : "toronto",
+     "citybio"      : "Etiam hendrerit cursus lacinia. In feugiat, dui in pulvinar varius, velit metus consectetur est, non consectetur leo lacus placerat sapien. Nam porta aliquet nisi. Duis quam erat, volutpat a iaculis eget, dapibus quis nibh. In sed volutpat risus, vel sollicitudin lectus."
+   },
+   { "city_country"  : "Charlotte, North Carolina",
+     "trimname"    : "charlotte",
+     "citybio"      : "Vivamus semper maximus magna, a suscipit urna faucibus vitae. Aliquam varius lacus vitae congue tempor. Ut tempor fermentum molestie. Phasellus nec congue justo."
+   },
+   { "city_country" : "London, England",
+     "trimname"    : "london",
+     "citybio"      : "Curabitur rhoncus odio maximus risus aliquam, vel aliquet risus commodo. Curabitur dapibus ut mauris sit amet malesuada. Aliquam porta erat in lorem hendrerit finibus."
+   },
+   { "city_country" : "Toledo, Ohio",
+     "trimname"    : "toledo",
+     "citybio"      : "Cras vel tempus nunc, a lobortis erat. Ut condimentum molestie dolor, eget bibendum erat rhoncus nec. Ut et nisi et arcu tincidunt gravida ac eget justo. Pellentesque rutrum arcu et ex pellentesque, tincidunt ullamcorper turpis consectetur."
+   }
+  ]
+}
