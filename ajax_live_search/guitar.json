@@ -1,0 +1,27 @@
+[ 
+	  {"year"         : "1928",
+	   "guitar"       : "Dobro",
+	   "description"  : "The word Dobro is, in popular usage, the generic term for a wood-bodied, single cone resonator guitar. It is also an American brand of resonator guitar, currently owned by the Gibson Guitar Corporation. The Dobro was originally made by the Dopyera brothers when they formed the Dobro Manufacturing Company. Their design, with a single inverted resonator, was introduced in competition to the patented Tricone and biscuit designs produced by the National String Instrument Corporation. The Dobro name appeared on other instruments, notably electric lap steel guitars and solid body electric guitars and on other resonator instruments such as Safari resonator mandolins.",
+	   "image"      : "images/guitar28_opt.png"
+	  },
+	  {"year"         : "1950",
+	   "guitar"       : "Fender Telecaster",
+	   "description"  : "The Fender Telecaster, colloquially known as the \"Tele\", is the world's first commercially successful solid-body electric guitar. Its simple yet effective design and revolutionary sound broke ground and set trends in electric guitar manufacturing and popular music. Introduced for national distribution as the Broadcaster in the autumn of 1950, it was the first guitar of its kind manufactured on a substantial scale and has been in continuous production in one form or another since its first incarnation.",                 
+       "image"       : "images/guitar50_opt.png"
+	  },
+	  {"year"          : "1954",
+	   "guitar"        : "Fender Stratocaster",
+	   "description"   : "The Fender Stratocaster is a model of electric guitar designed in 1954 by Leo Fender, Bill Carson, George Fullerton, and Freddie Tavares. The Fender Musical Instruments Corporation has continuously manufactured the Stratocaster from 1954 to the present. It is a double-cutaway guitar, with an extended top \"horn\" shape for balance. Along with the Gibson Les Paul, it is one of the most often emulated electric guitar shapes. \"Stratocaster\" and \"Strat\" are trademark terms belonging to Fender.",
+	   "image"        : "images/guitar54_opt.png"
+       },
+       {"year"          : "1955",
+        "guitar"        : "Gretsch Chet Atkins 6120",
+        "description"   : "Guitar production by the Gretsch Company began in the early 1930s, and Gretsch guitars became highly sought after, most notably in the 1950s and 1960s. They lost favor with players during the 1970s and 1980s for various reasons, including a problematic relationship with the Baldwin Piano Company. Gretsch eventually went bankrupt, then was revived in 1989 by Fred W. Gretsch, a great-grandson of Friedrich Gretsch. Fred W. Gretsch remains president of the company. During this time, Chet Atkins became an endorser of Gretsch. Atkins was one of the pre-eminent guitarists of his day, and his endorsement gave Gretsch greater visibility in competition with Gibson and Fender. Gretsch ultimately sold thousands of guitars with Chet's name on the pickguard, most notably the 6120 Chet Atkins model",
+        "image"       : "images/guitar55_opt.png"
+       },
+       {"year"          : "1957",
+        "guitar"        : "Gibson Les Paul",
+        "description"   : "The Gibson Les Paul is a solid body electric guitar that was first sold by the Gibson Guitar Corporation in 1952.[1] The Les Paul was designed by Gibson president Ted McCarty, factory manager John Huis and their team, along with guitarist/inventor Les Paul. The Les Paul was originally offered with a gold finish and two P-90 pickups. In 1957, humbucking pickups were added, along with sunburst finishes in 1958.",
+        "image"       : "images/guitar57_opt.png"
+       }
+	]

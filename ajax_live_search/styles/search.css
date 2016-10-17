@@ -1,0 +1,37 @@
+/* CSS document */
+
+body {
+	background: #4f626e;
+	font: 100% Arial, Helvetica, sans-serif;
+}
+
+div#searchbox {
+	background: #afb378;
+	padding: 2em 4em;
+	width: 400px;
+	margin: 3em auto;
+	border: 4px solid #fff;
+	border-radius: 5px;
+}
+
+div#update {
+	color: #000;
+}
+
+img {
+	border: 1px solid #000;
+}
+
+li {
+	list-style: none;
+}
+
+input {
+	display: block;
+	border: 1px solid #000;
+}
+
+label {
+	color: #a66f89;
+	font: bold 180% Arial, Helvetica, sans-serif;
+}
