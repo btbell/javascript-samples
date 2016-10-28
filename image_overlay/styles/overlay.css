@@ -1,0 +1,22 @@
+/* CSS document */
+
+body {
+  margin-top: 3em;
+  padding: 0 2em;
+}
+
+#container {
+  margin: 3em auto;
+  padding: 1.3em 0;
+  width: 100%;
+  background: #424242;
+  border: 5px solid #8e001c;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+
+}
+
+figure {
+  margin: .8em 0;
+}
